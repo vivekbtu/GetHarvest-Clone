@@ -1,4 +1,12 @@
 import { Box, Button, Flex, Grid, Image, Link, Stack, Text } from "@chakra-ui/react";
+// // 1. Import
+// import { Icon } from '@chakra-ui/react'
+// import { MdSettings } from 'react-icons/md'
+
+// // 2. Use the `as` prop
+// function Example() {
+//   return <Icon as={MdSettings} />
+// }
 
 function Footer() {
     
@@ -44,75 +52,79 @@ function Footer() {
                             </Box>
                         </Stack>
                         <Stack>
-                            <Grid fontSize="1.1rem" textAlign="start" marginTop="70px">
+                            <Grid fontSize="1.3rem" textAlign="start" marginTop="70px">
                                 <Text fontSize="1.5rem" marginBottom="7px" textColor="white">Harvest</Text>
-                                    <Link color='red' href='#'>
-                                       <Text textColor="white"> Home</Text>
-                                    </Link>
-                                    <Link color='red' href='#'>
-                                       <Text textColor="white"> Why Harvest?</Text>
-                                    </Link>
-                                    <Link color='red' href='#'>
-                                       <Text textColor="white"> Features</Text>
-                                    </Link>
-                                    <Link color='red' href='#'>
-                                       <Text textColor="white"> Pricing</Text>
-                                    </Link>
-                                    <Link color='red' href='#'>
-                                       <Text textColor="white"> Integrations</Text>
-                                    </Link>
-                                    <Link color='red' href='#'>
-                                       <Text textColor="white"> Apps</Text>
-                                    </Link>
-                                    <Link color='red' href='#'>
-                                       <Text textColor="white"> Security</Text>
-                                    </Link>
+                                    <a href=''>
+                                    Home
+                                    </a>
+                                    <a href=''>
+                                    Why Harvest?
+                                    </a>
+                                    <a href=''>
+                                    Features
+                                    </a>
+                                    <a href=''>
+                                    Pricing
+                                    </a>
+                                    
+                                    <a href=''>
+                                    Integrations
+                                    </a>
+                                    
+                                    <a href=''>
+                                    Apps
+                                    </a>
+                                    <a href=''>
+                                    Security
+                                    </a>
                             </Grid>
                         </Stack>
                         <Stack>
-                        <Grid fontSize="1.1rem" textAlign="start" marginTop="70px">
+                        <Grid textAlign="start" marginTop="70px">
                                 <Text fontSize="1.5rem" marginBottom="7px" textColor="white">Community</Text>
-                                    <Link color='red' href='#'>
-                                       <Text textColor="white"> Customer Stories</Text>
-                                    </Link>
-                                    <Link color='red' href='#'>
-                                       <Text textColor="white"> Resources</Text>
-                                    </Link>
-                                    <Link color='red' href='#'>
-                                       <Text textColor="white"> Webinars</Text>
-                                    </Link>
-                                    <Link color='red' href='#'>
-                                       <Text textColor="white"> Help & support</Text>
-                                    </Link>
-                                    <Link color='red' href='#'>
-                                       <Text textColor="white"> Integrate with Harvest</Text>
-                                    </Link>
-                                    <Link color='red' href='#'>
-                                       <Text textColor="white"> Time Well Spent</Text>
-                                    </Link>
-                                    <Link color='red' href='#'>
-                                       <Text textColor="white"> Time In This Time</Text>
-                                    </Link>
+                                    <a href=''>
+                                    Customer Stories
+                                    </a>
+                                    <a href=''>
+                                        Resources
+                                    </a>
+                                    <a href=''>
+                                    Webinars
+                                    </a>
+                                    <a href=''>
+                                    Help & support
+                                    </a>
+                                    
+                                    <a href=''>
+                                    Integrate with Harvest
+                                    </a>
+
+                                    <a href=''>
+                                       Time Well Spent
+                                    </a>
+                                    <a href=''>
+                                       Time In This Time
+                                    </a>
                             </Grid>
                         </Stack>
                         <Stack>
-                        <Grid fontSize="1.1rem" textAlign="start" marginTop="70px">
+                        <Grid fontSize="1.3rem" textAlign="start" marginTop="70px">
                                 <Text fontSize="1.5rem" marginBottom="7px" textColor="white">Company</Text>
-                                    <Link color='red' href='#'>
-                                       <Text textColor="white"> About Us</Text>
-                                    </Link>
-                                    <Link color='red' href='#'>
-                                       <Text textColor="white"> Blog</Text>
-                                    </Link>
-                                    <Link color='red' href='#'>
-                                       <Text textColor="white"> Careers</Text>
-                                    </Link>
-                                    <Link color='red' href='#'>
-                                       <Text textColor="white"> Legal</Text>
-                                    </Link>
-                                    <Link color='red' href='#'>
-                                       <Text textColor="white"> Contact us</Text>
-                                    </Link>
+                                    <a href='https://www.getharvest.com/about'>
+                                       About Us
+                                    </a>
+                                    <a href='#'>
+                                        Blog
+                                    </a>
+                                    <a href=''>
+                                       Careers
+                                    </a>
+                                    <a href=''>
+                                       Legal
+                                    </a>
+                                    <a href='https://www.getharvest.com/contact'>
+                                     Contact us
+                                    </a>
                                     
                             </Grid>
                         </Stack>
@@ -134,26 +146,26 @@ function Footer() {
     
                             <Box color="gray" fontSize="1.2rem" fontWeight="500" marginRight="-200px">
                                 <Flex gap={5}>
-                                    <Link href='#'>
+                                    <a href='https://twitter.com/harvest'>
                                         <Flex gap={5}>
                                         <Image boxSize="30px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgA7SXwVE6eiZGHIHm1wypXtkQlfXpwYPWQg&usqp=CAU" alt="" />
-                                        <Text>Twitter</Text>
+                                        Twitter
                                     </Flex>
-                                    </Link>
+                                    </a>
 
-                                    <Link href='#'>
+                                    <a href='https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGnE-dXaKvBJgAAAYLT7DGAHta9-MeDATuXp7KrsrvLU_ltHt0Pz_i4-fZ7-lW1d-rH9baHeCJkWJbfFDO7DHb8J-V-SlxSn7f5rDC31wekHSdDnAjdbB0zYEBn9229Gz71dzo=&original_referer=https://www.getharvest.com/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fharvest_2'>
                                         <Flex gap={5}>
                                         <Image boxSize="30px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUuQb6Cw_6s7F68QCQ8n3T8i2qp0Z-uvJL_Q&usqp=CAU" alt="" />
-                                        <Text>LinkedIn</Text>
+                                        LinkedIn
                                     </Flex>
-                                    </Link>
+                                    </a>
 
-                                    <Link href='#'>
+                                    <a href='https://www.instagram.com/harvest/'>
                                         <Flex gap={5}>
                                         <Image boxSize="30px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMQrXHi9QpoBmf-Mj3ejRX6h_EPjvcakDtBg&usqp=CAU" alt="" />
-                                        <Text>Instagram</Text>
+                                        Instagram
                                         </Flex>
-                                    </Link>
+                                    </a>
                                 </Flex>
                             </Box>
                         </Flex>

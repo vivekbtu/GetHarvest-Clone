@@ -82,14 +82,20 @@ const links2=[
     {
         path: "/signin",
         title: "Sign in"
-    }
+    },
+]
+const links3 =[
+  {
+    path: "/signup",
+    
+  }
 ]
   
 function Navbar(){
 
     return (
         <div className="Navbar">
-            <Stack width="100%" margin="auto" position="fixed" backgroundColor="white" >
+            <Stack width="100%" margin="auto" marginTop="-50px" position="fixed" backgroundColor="white" >
            
             <Flex alignItems='center' gap='2' height="70px">
             <Container marginLeft={20}>
@@ -100,21 +106,6 @@ function Navbar(){
                 {/* </Box> */}
                 <Box >
                     <Flex gap={5}>
-                           {/* <NavLink key={link.path} to={link.path}>
-                           <Text fontSize='1.3rem'>WhyHarvest?</Text>
-                           </NavLink>
-                           <NavLink key={link.path} to={link.path}>
-                            <Text fontSize='1.3rem'>Features</Text>
-                            </NavLink>
-                            <NavLink key={link.path} to={link.path}>
-                            <Text fontSize='1.3rem'>Customers</Text>
-                            </NavLink>
-                            <NavLink key={link.path} to={link.path}>
-                            <Text fontSize='1.3rem'>Integrations</Text>
-                            </NavLink>
-                            <NavLink key={link.path} to={link.path}>
-                            <Text fontSize='1.3rem'>Pricing</Text>
-                            </NavLink> */}
                              {links.map((link)=>(
                            <NavLink key={link.path} to={link.path}>
                            <Text fontSize='1.3rem'>{link.title}</Text>
@@ -130,12 +121,17 @@ function Navbar(){
                 <Flex>
                     {links2.map((link2)=>(
                 <NavLink key={link2.path} to={link2.path}>
-                    <Text fontSize='1.3rem'  marginLeft="60px">{link2.title}</Text>
+                    <Text fontSize='1.3rem'  marginLeft="50px" marginTop="10px">{link2.title}</Text>
                 </NavLink>
                 ))}
-                    <Box>
-                    <Button marginLeft="10px" textColor="white" colorScheme="orange" backgroundColor='#fa5d00'>Try Harvest free</Button>
-                    </Box>
+                {/* <Container> */}
+                  {links3.map((links3)=>(
+                <NavLink key={links3.path} to={links3.path}>
+                  <Text fontSize='1.3rem' marginLeft="20px" backgroundColor="#fa5d00" padding="10px" borderRadius="15px" color="white" fontWeight="500">
+                    Try Harvest Free
+                  </Text>
+                </NavLink>
+                ))}
                 </Flex>
             </Container>
             </Flex>
