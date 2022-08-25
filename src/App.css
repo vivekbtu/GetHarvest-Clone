@@ -56,3 +56,32 @@
   background-color: black;
   
 }
+
+.Signin{
+ margin: auto;
+ width: 50%;
+ /* border: solid 1px red; */
+ display: block;
+ margin-left: 500px;
+}
+.SingnupPage{
+  background-color: #fff8f1;
+}
+.SigninATag a{
+  color: gray;
+}
+.SigninATag a:hover{
+  border-bottom: solid 1px gray;
+}
+.Signup a{
+  border-bottom: solid 1px gray;
+}
+.FooterBlack a{
+  font-size: 1.3rem;
+  color: white;
+
+}
+.FooterBlack a:hover{
+  color: red;
+  border-inline-color: none;
+}

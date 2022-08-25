@@ -1,5 +1,5 @@
 import { Box, Button, Container, Flex, Grid, Image, Radio, RadioGroup, Stack, Text } from "@chakra-ui/react";
-import { ArrowForwardIcon, ChevronRightIcon } from "@chakra-ui/icons"
+import { ArrowForwardIcon } from "@chakra-ui/icons"
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
