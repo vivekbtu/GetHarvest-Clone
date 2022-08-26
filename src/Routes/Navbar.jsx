@@ -1,49 +1,3 @@
-// import React from 'react'
-// import { NavLink } from 'react-router-dom'
-
-// const links = [
-//   {
-//     path:"/",
-//     title:"Home"
-//   },
-//   {
-//     path:"/whyharvest",
-//     title: "WhyHarvest"
-//   },
-//   {
-//     path:"/features",
-//     title: "Features"
-//   },
-//   {
-//     path:"/customers",
-//     title: "Customers"
-//   },
-//   {
-//     path: "/integrations",
-//     title: "Integrations"
-//   },
-//   {
-//     path: "/pricing",
-//     title: "Pricing"
-//   }
-// ]
-
-// function NavBar() {
-//   return (
-//     <>
-//       {links.map((link)=> (
-//         <NavLink key={link.path} to={link.path}>
-//           {link.title}
-//         </NavLink>
-//       ))}
-//     </>
-//   )
-// }
-
-// export default NavBar
-
-
-
 
 
 
@@ -102,7 +56,7 @@ function Navbar(){
                 
                 <Flex gap={5} alignItems='center'>
                 {/* <Box  boxSize='100px' height="50px" marginTop={-3}> */}
-                <Image boxSize='150px' height="90px"  src='https://logos-world.net/wp-content/uploads/2022/04/Harvest-Logo.png' alt='Logo' />
+                <Image boxSize='150px' cursor="pointer" height="90px"  src='https://logos-world.net/wp-content/uploads/2022/04/Harvest-Logo.png' alt='Logo' />
                 {/* </Box> */}
                 <Box >
                     <Flex gap={5}>

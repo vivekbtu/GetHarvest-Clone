@@ -49,6 +49,10 @@
   }
 }
 
+
+ /* FOOTER PAGE  */
+
+
 .Footer{
   background-color: white;
 }
@@ -56,6 +60,17 @@
   background-color: black;
   
 }
+.FooterBlack a{
+  font-size: 1.3rem;
+  color: white;
+
+}
+.FooterBlack a:hover{
+  color: red;
+  border-inline-color: none;
+}
+ 
+/* SIGNIN PAGE  */
 
 .Signin{
  margin: auto;
@@ -76,12 +91,22 @@
 .Signup a{
   border-bottom: solid 1px gray;
 }
-.FooterBlack a{
-  font-size: 1.3rem;
-  color: white;
 
+
+
+/* CUSTOMERS PAGE */
+
+.CustomersImage :hover{
+  border-bottom-right-radius: 55px;
+  border-top-left-radius: 55px;
+  cursor: pointer;
 }
-.FooterBlack a:hover{
-  color: red;
-  border-inline-color: none;
+.CustomerDetails :hover{
+  background-color: #fee8d8;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.CustomersStory :hover{
+  background-color: #a19e9b;
+  cursor: pointer;
 }
