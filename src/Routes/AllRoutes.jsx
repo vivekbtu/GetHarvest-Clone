@@ -13,6 +13,7 @@ import React from "react";
 import Home from "./Home";
 import Signin from "./Signin";
 import Signup from "./Signup";
+import Customers from "./Customers";
 
 function AllRoutes() {
   return (
@@ -20,8 +21,8 @@ function AllRoutes() {
       <Routes>
         <Route path="/" element={<Home />} />
         {/* <Route path="/about-us" element={<AboutPage/>} />
-        <Route path="/contact" element={<ContactPage/>} />
-        <Route path="/services" element={<ServicePage/>} /> */}
+        <Route path="/contact" element={<ContactPage/>} /> */}
+        <Route path="/customers" element={<Customers/>} />
         <Route path="/signin" element={<Signin/>} />
         <Route path="/signup" element={<Signup/>} />
       </Routes>

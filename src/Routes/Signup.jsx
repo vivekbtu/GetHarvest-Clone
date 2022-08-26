@@ -56,8 +56,8 @@ function Signup() {
                                 </Box>
                                 <Box>
                                     <Flex alignItems="center">
-                                        <Box marginTop="-5px"><CheckCircleIcon /></Box>
-                                        <Box marginTop="20px" fontSize="1rem">
+                                        <Box marginTop="-27px"><CheckCircleIcon /></Box>
+                                        <Box marginTop="27px" fontSize="1rem">
                                             <Text>Reports & Analysis. Instantly create reports across projects. Budgets, time, team capacity, cost breakdowns, and more.</Text>
                                         </Box>
 

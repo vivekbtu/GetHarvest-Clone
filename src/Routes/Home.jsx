@@ -312,6 +312,7 @@ function Home() {
                         <Box width="50%" marginTop="70px">
                             <Grid>
                                 <Box borderTop="solid 1.5px #fa5d00" width="100%" height="150px">
+                                    <a href="">
                                     <Flex alignItems="center">
                                         <Box marginLeft="10px" boxSize="100px" marginTop="50px" >
                                             <Image src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/homepage/illo-75-folder.svg" alt="home" />
@@ -326,9 +327,11 @@ function Home() {
                                             <ArrowForwardIcon />
                                         </Box>
                                     </Flex>
+                                    </a>
                                 </Box>
 
                                 <Box borderTop="solid 1.5px #fa5d00" width="100%" height="150px">
+                                    <a href="">
                                     <Flex alignItems="center">
                                         <Box marginLeft="10px" boxSize="100px" marginTop="50px" >
                                             <Image src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/homepage/illo-75-laptop.svg" alt="webinar" />
@@ -343,9 +346,11 @@ function Home() {
                                             <ArrowForwardIcon />
                                         </Box>
                                     </Flex>
+                                    </a>
                                 </Box>
                                 
                                 <Box borderTop="solid 1.5px #fa5d00" width="100%" height="150px">
+                                    <a href="">
                                     <Flex alignItems="center">
                                         <Box marginLeft="10px" boxSize="100px" marginTop="50px" >
                                             <Image src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/homepage/illo-75-help.svg" alt="HelpCenter" />
@@ -360,6 +365,7 @@ function Home() {
                                             <ArrowForwardIcon />
                                         </Box>
                                     </Flex>
+                                    </a>
                                 </Box>
 
                             </Grid>
