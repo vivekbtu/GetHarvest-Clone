@@ -1,10 +1,10 @@
 
 
 
-
 import { Box, Button, Container, Flex, Image, Stack, Text } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
-import React from "react";
+import React, { useState } from "react";
+import { useEffect } from "react";
 
 
 const links = [
@@ -13,7 +13,7 @@ const links = [
       title:"WhyHarvest?"
     },
     {
-      path:"/features",
+      path:"/",
       title: "Features"
     },
     {
@@ -21,11 +21,11 @@ const links = [
       title: "Customers"
     },
     {
-      path:"/integration",
+      path:"/",
       title: "Integration"
     },
     {
-      path: "/pricing",
+      path: "/customers",
       title: "pricing"
     },
     // {
@@ -44,14 +44,35 @@ const links3 =[
     
   }
 ]
+
+
   
 function Navbar(){
 
+  // NAVBAR SCROLL CHANGE COLOR FUNCTION 
+  // AND ADD CONDTIONAL STATEMENT IN CLASSNAME TAG YOU CAN SEE 
+  // IN STACK FRAG I USED ({colorChange ? 'Navbar colorChange' : 'Navbar '}) THIS CONDTION
+
+
+  const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () =>{
+     if(window.scrollY >= 2){
+       setColorchange(true);
+     }
+     else{
+       setColorchange(false);
+     }
+  };
+  useEffect(()=>{
+    changeNavbarColor()
+    window.addEventListener('scroll', changeNavbarColor);
+  })
+    
     return (
-        <div className="Navbar">
-            <Stack width="100%" margin="auto" marginTop="-50px" position="fixed" backgroundColor="white" >
+        <nav>
+            <Stack className={colorChange ? 'Navbar colorChange' : 'Navbar '} width="100%" margin="auto" marginTop="-60px" position="fixed" >
            
-            <Flex alignItems='center' gap='2' height="70px">
+            <Flex alignItems='center' gap='2' height="90px">
             <Container marginLeft={20}>
                 
                 <Flex gap={5} alignItems='center'>
@@ -71,7 +92,7 @@ function Navbar(){
             
             </Container>
             
-            <Container marginRight={-24}>
+            <Container marginRight="-6%">
                 <Flex>
                     {links2.map((link2)=>(
                 <NavLink key={link2.path} to={link2.path}>
@@ -91,7 +112,7 @@ function Navbar(){
             </Flex>
             
             </Stack>
-        </div>
+        </nav>
     )
 }
 

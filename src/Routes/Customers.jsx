@@ -11,7 +11,7 @@ function Customers(){
         
        
         <div className="Customers">
-            <Stack margin="auto" width="100%" backgroundColor="#fff8f1" marginTop="50px">
+            <Stack margin="auto" width="100%" backgroundColor="#fff8f1" marginTop="60px">
                 <Stack width="80%" margin="auto"  marginTop="70px">
                     <Box textAlign="start">
                     <Text fontWeight="350" fontSize="3.4rem">See how Harvest helps teams like yours thrive </Text>

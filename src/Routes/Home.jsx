@@ -10,7 +10,7 @@ function Home() {
         <div className="Home">
             <Navbar />
 
-            <Stack width="100%" margin="auto" marginTop="50px" >
+            <Stack width="100%" margin="auto" marginTop="60px" >
                 <Stack>
                     <Container marginTop="40px">
                         <Flex gap={-10}>

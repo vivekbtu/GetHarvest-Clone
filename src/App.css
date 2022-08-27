@@ -7,13 +7,20 @@
   text-align: center;
   display: flex;
 }
+
+/* NAVBAR SCROLL FUNCTION ADD AND USING CSS HERE FOR CHANGING COLOR  */
+
+
 .Navbar{
-  /* width: 30%;
-  display: flex;
-  justify-content: space-around; */
   background-color: #fff8f1;
   
 }
+
+.Navbar.colorChange{
+  background-color: white;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -110,3 +117,5 @@
   background-color: #a19e9b;
   cursor: pointer;
 }
+
+
