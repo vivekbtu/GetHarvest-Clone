@@ -14,10 +14,10 @@ function Customers(){
             <Stack margin="auto" width="100%" backgroundColor="#fff8f1" marginTop="60px">
                 <Stack width="80%" margin="auto"  marginTop="70px">
                     <Box textAlign="start">
-                    <Text fontWeight="350" fontSize="3.4rem">See how Harvest helps teams like yours thrive </Text>
+                    <Text fontWeight="350" fontSize="3.4vw">See how Harvest helps teams like yours thrive </Text>
                     </Box>
                     <Box margin="auto" textAlign="start">
-                        <Text fontSize="2rem" fontWeight="350">
+                        <Text fontSize="2vw" fontWeight="350">
                             Teams of all sizes, across industries, and around the world track time with Harvest.
                         </Text>
                     </Box>
@@ -28,9 +28,9 @@ function Customers(){
                             <Box >
                                 <Flex alignItems="center" >
                                     <Box textAlign="center" marginLeft="70px">
-                                    <Grid>
-                                        <Text fontSize="3rem">70,000+</Text>
-                                        <Text fontSize="2rem" fontWeight="300">customers</Text>
+                                    <Grid marginLeft="-70px">
+                                        <Text fontSize="3vw">70,000 +</Text>
+                                        <Text fontSize="2vw" fontWeight="300">customers</Text>
                                     </Grid>
                                     </Box>
                                     <Box marginLeft="50px">
@@ -43,8 +43,8 @@ function Customers(){
                                 <Flex alignItems="center">
                                     <Box>
                                     <Grid marginLeft="70px">
-                                        <Text fontSize="3rem">2 billion</Text>
-                                        <Text fontSize="2rem" fontWeight="300">hours tracked</Text>
+                                        <Text fontSize="3vw">2 billion</Text>
+                                        <Text fontSize="2vw" fontWeight="300">hours tracked</Text>
                                     </Grid>
                                     </Box>
                                     <Box marginLeft="50px" marginRight="50px">
@@ -57,8 +57,8 @@ function Customers(){
                                 <Flex alignItems="center" >
                                 <Box>
                                     <Grid>
-                                        <Text fontSize="3rem">19.6 million</Text>
-                                        <Text fontSize="2rem" fontWeight="300">invoices paid</Text>
+                                        <Text fontSize="3vw">19.6 million</Text>
+                                        <Text fontSize="2vw" fontWeight="300">invoices paid</Text>
                                     </Grid>
                                     </Box>
                                     <Box marginLeft="50px">
@@ -86,7 +86,7 @@ function Customers(){
                             <Text padding="40px" textAlign="start" color="#fa5d00" margin="auto" fontSize="20px" fontWeight="700">FEATURED STORY</Text>
                             </Box>
                             <Box>
-                            <Text fontSize="2rem" textAlign="start" marginLeft="40px" marginTop="-20px">Startup studio Dovetail tracks time with Harvest to build trust with clients.</Text>
+                            <Text fontSize="2.1vw" textAlign="start" marginLeft="40px" marginTop="-20px">Startup studio Dovetail tracks time with Harvest to build trust with clients.</Text>
                             </Box>
                             <Box flex="start" width="35%" marginTop="20px" marginLeft="40px">
                                 <Button position="-moz-initial" width="200px" height="50px" borderRadius="17px" textColor="white" colorScheme="black" backgroundColor='black' >Meet our customers</Button>
@@ -99,30 +99,30 @@ function Customers(){
                  {/* IMAGE COLLECTION */}
 
                  <Stack >
-                        <Flex width="80%" margin="auto" justifyContent="space-between" gap={-3} marginTop="70px" marginBottom="30px" >
+                        <Flex width="80%" margin="auto" justifyContent="space-between"  marginTop="70px" marginBottom="30px" >
                             <Box >
-                                <Image src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-vw.svg?noresize" alt="vw" />
+                                <Image boxSize="100%" src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-vw.svg?noresize" alt="vw" />
                             </Box>
                             <Box>
-                                <Image src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-aclu.svg?noresize" alt="aclu" />
+                                <Image boxSize="100%" src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-aclu.svg?noresize" alt="aclu" />
                             </Box>
                             <Box>
-                                <Image src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-conde.svg?noresize" alt="conde" />
+                                <Image boxSize="100%" src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-conde.svg?noresize" alt="conde" />
                             </Box>
                             <Box>
-                                <Image src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-dell.svg?noresize" alt="Dell" />
+                                <Image boxSize="100%" src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-dell.svg?noresize" alt="Dell" />
                             </Box>
                             <Box>
-                                <Image src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-amnesty.svg?noresize" alt="amnesty" />
+                                <Image boxSize="100%" src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-amnesty.svg?noresize" alt="amnesty" />
                             </Box>
                             <Box>
-                                <Image src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-deloitte.svg?noresize" alt="deloitte" />
+                                <Image boxSize="100%" src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-deloitte.svg?noresize" alt="deloitte" />
                             </Box>
                             <Box>
-                                <Image src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-lululemon.svg?noresize" alt="lulu" />
+                                <Image boxSize="100%" src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-lululemon.svg?noresize" alt="lulu" />
                             </Box>
                             <Box>
-                                <Image src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-yale.svg?noresize" alt="Yale" />
+                                <Image boxSize="100%" src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/customer-logos/featured-yale.svg?noresize" alt="Yale" />
                             </Box>
                         </Flex>
                     </Stack>
