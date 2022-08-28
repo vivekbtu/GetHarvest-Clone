@@ -157,7 +157,7 @@ function Home() {
 
                     <Stack >
                         <Flex width="80%" margin="auto" marginTop="20px" justifyContent="space-around" >
-                            <Box width="32%" border="solid 1px red" height="180px" borderRadius="15px">
+                            <Box id="Features" width="32%" border="solid 1px red" height="180px" borderRadius="15px">
                                 <Grid gap={5}>
                                     <Flex alignItems="center" marginTop="20px" marginLeft="10px" gap={5}>
                                         <Image boxSize="60px" src="https://res.cloudinary.com/spiralyze/image/upload/f_auto/Harvest/1029-Harvest-Home-Center-Align/time-tracking.png" alt="time" />
@@ -166,7 +166,7 @@ function Home() {
                                     <Text textAlign="start" fontSize="1.3rem" marginLeft="15px" marginRight="10px" fontWeight="400">Simple and intuitive time tracking your team will love.</Text>
                                 </Grid>
                             </Box>
-                            <Box width="32%" border="solid 1px red" height="180px" borderRadius="10px">
+                            <Box id="Features" width="32%" border="solid 1px red" height="180px" borderRadius="10px">
                                 <Grid gap={5}>
                                     <Flex alignItems="center" marginTop="20px" marginLeft="10px" gap={5}>
                                         <Image boxSize="60px" src="https://res.cloudinary.com/spiralyze/image/upload/f_auto/Harvest/1029-Harvest-Home-Center-Align/reports-and-analysis.png" alt="reports" />
@@ -175,7 +175,7 @@ function Home() {
                                     <Text textAlign="start" fontSize="1.3rem" marginLeft="15px" marginRight="10px" fontWeight="400">Unlock the insights that help your business thrive.</Text>
                                 </Grid>
                             </Box>
-                            <Box width="32%" border="solid 1px red" height="180px" borderRadius="10px">
+                            <Box id="Features" width="32%" border="solid 1px red" height="180px" borderRadius="10px">
                                 <Grid gap={5}>
                                     <Flex alignItems="center" marginTop="20px" marginLeft="10px" gap={5}>
                                         <Image boxSize="60px" src="https://res.cloudinary.com/spiralyze/image/upload/f_auto/Harvest/1029-Harvest-Home-Center-Align/invoicing-and-payments.png" alt="invoice" />
@@ -311,7 +311,7 @@ function Home() {
 
                         <Box width="50%" marginTop="70px">
                             <Grid>
-                                <Box borderTop="solid 1.5px #fa5d00" width="100%" height="150px">
+                                <Box id="Features" borderTop="solid 1.5px #fa5d00" width="100%" height="150px">
                                     <a href="">
                                     <Flex alignItems="center">
                                         <Box marginLeft="10px" boxSize="100px" marginTop="50px" >
@@ -330,7 +330,7 @@ function Home() {
                                     </a>
                                 </Box>
 
-                                <Box borderTop="solid 1.5px #fa5d00" width="100%" height="150px">
+                                <Box id="Features" borderTop="solid 1.5px #fa5d00" width="100%" height="150px">
                                     <a href="">
                                     <Flex alignItems="center">
                                         <Box marginLeft="10px" boxSize="100px" marginTop="50px" >
@@ -349,7 +349,7 @@ function Home() {
                                     </a>
                                 </Box>
                                 
-                                <Box borderTop="solid 1.5px #fa5d00" width="100%" height="150px">
+                                <Box id="Features" borderTop="solid 1.5px #fa5d00" width="100%" height="150px">
                                     <a href="">
                                     <Flex alignItems="center">
                                         <Box marginLeft="10px" boxSize="100px" marginTop="50px" >

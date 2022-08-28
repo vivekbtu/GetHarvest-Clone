@@ -13,7 +13,7 @@ const links = [
       title:"WhyHarvest?"
     },
     {
-      path:"/",
+      path:"/ ",
       title: "Features"
     },
     {
@@ -79,11 +79,11 @@ function Navbar(){
                 {/* <Box  boxSize='100px' height="50px" marginTop={-3}> */}
                 <Image boxSize='150px' cursor="pointer" height="90px"  src='https://logos-world.net/wp-content/uploads/2022/04/Harvest-Logo.png' alt='Logo' />
                 {/* </Box> */}
-                <Box >
+                <Box>
                     <Flex gap={5}>
                              {links.map((link)=>(
                            <NavLink key={link.path} to={link.path}>
-                           <Text fontSize='1.3rem'>{link.title}</Text>
+                           <Text className="NavbarHover" fontSize='1.3rem'>{link.title}</Text>
                            </NavLink> 
                            ))}
                     </Flex>
@@ -96,7 +96,7 @@ function Navbar(){
                 <Flex>
                     {links2.map((link2)=>(
                 <NavLink key={link2.path} to={link2.path}>
-                    <Text fontSize='1.3rem'  marginLeft="50px" marginTop="10px">{link2.title}</Text>
+                    <Text className="NavbarHover" fontSize='1.3rem'  marginLeft="50px" marginTop="10px">{link2.title}</Text>
                 </NavLink>
                 ))}
                 {/* <Container> */}
