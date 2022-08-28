@@ -19,6 +19,9 @@
 .Navbar.colorChange{
   background-color: white;
 }
+.NavbarHover:hover{
+  color: #fa5d00;
+}
 
 
 .App-logo {
@@ -73,7 +76,7 @@
 
 }
 .FooterBlack a:hover{
-  color: red;
+  color: #fa5d00;
   border-inline-color: none;
 }
  
@@ -118,4 +121,7 @@
   cursor: pointer;
 }
 
-
+#Features:hover{
+  color:#fa5d00;
+  cursor: pointer;
+}

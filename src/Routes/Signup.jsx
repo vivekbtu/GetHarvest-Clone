@@ -19,6 +19,7 @@ function Signup() {
         // };
     const handleSubmitSignup = (e) => {
         e.preventDefault();
+        alert("Account Successfully Created");
         setIsLoading(true);
         setTimeout(() => {
         setIsLoading(false);
@@ -117,7 +118,7 @@ function Signup() {
                                             </Box>
                                         </Flex>
                                         <Box width="100%">
-                                            <Input borderColor="grey" height="50px" backgroundColor="white" placeholder='Password' />
+                                            <Input borderColor="grey" type="password" height="50px" backgroundColor="white" placeholder='Password' />
                                         </Box>
                                     </Stack>
 
