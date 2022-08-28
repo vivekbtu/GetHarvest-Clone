@@ -161,27 +161,27 @@ function Home() {
                                 <Grid gap={5}>
                                     <Flex alignItems="center" marginTop="20px" marginLeft="10px" gap={5}>
                                         <Image boxSize="60px" src="https://res.cloudinary.com/spiralyze/image/upload/f_auto/Harvest/1029-Harvest-Home-Center-Align/time-tracking.png" alt="time" />
-                                        <Text fontSize="1.8rem">Time tracking</Text>
+                                        <Text fontSize="2.2vw">Time tracking</Text>
                                     </Flex>
-                                    <Text textAlign="start" fontSize="1.3rem" marginLeft="15px" marginRight="10px" fontWeight="400">Simple and intuitive time tracking your team will love.</Text>
+                                    <Text textAlign="start" fontSize="1.3vw" marginLeft="15px" marginRight="10px" fontWeight="400">Simple and intuitive time tracking your team will love.</Text>
                                 </Grid>
                             </Box>
                             <Box id="Features" width="32%" border="solid 1px red" height="180px" borderRadius="10px">
                                 <Grid gap={5}>
                                     <Flex alignItems="center" marginTop="20px" marginLeft="10px" gap={5}>
                                         <Image boxSize="60px" src="https://res.cloudinary.com/spiralyze/image/upload/f_auto/Harvest/1029-Harvest-Home-Center-Align/reports-and-analysis.png" alt="reports" />
-                                        <Text fontSize="1.8rem">Reports & analysis</Text>
+                                        <Text fontSize="2.2vw">Reports & analysis</Text>
                                     </Flex>
-                                    <Text textAlign="start" fontSize="1.3rem" marginLeft="15px" marginRight="10px" fontWeight="400">Unlock the insights that help your business thrive.</Text>
+                                    <Text textAlign="start" fontSize="1.3vw" marginLeft="15px" marginRight="10px" fontWeight="400">Unlock the insights that help your business thrive.</Text>
                                 </Grid>
                             </Box>
                             <Box id="Features" width="32%" border="solid 1px red" height="180px" borderRadius="10px">
                                 <Grid gap={5}>
                                     <Flex alignItems="center" marginTop="20px" marginLeft="10px" gap={5}>
                                         <Image boxSize="60px" src="https://res.cloudinary.com/spiralyze/image/upload/f_auto/Harvest/1029-Harvest-Home-Center-Align/invoicing-and-payments.png" alt="invoice" />
-                                        <Text fontSize="1.8rem">Invoicing & payments</Text>
+                                        <Text fontSize="2.2vw">Invoicing & payments</Text>
                                     </Flex>
-                                    <Text textAlign="start" fontSize="1.3rem" marginLeft="15px" marginRight="10px" fontWeight="400">Seamless invoicing and fast online payments.</Text>
+                                    <Text textAlign="start" fontSize="1.3vw" marginLeft="15px" marginRight="10px" fontWeight="400">Seamless invoicing and fast online payments.</Text>
                                 </Grid>
                             </Box>
                         </Flex>
@@ -202,8 +202,8 @@ function Home() {
 
                 <Stack >
                     <Stack>
-                        <Flex width="80%" height="500px" margin="auto">
-                            <Box width="40%" margin="70px">
+                        <Flex width="80%" margin="auto">
+                            <Box width="40%" margin="5%">
                                 <Image src="https://www.getharvest.com/hubfs/raw_assets/public/harvest-theme/images/illustrations/integrations-home.svg" alt="theme" />
                             </Box>
 
@@ -213,14 +213,14 @@ function Home() {
                                         <Text color="#fa5d00" fontSize="20px" fontWeight="700">INTEGRATIONS</Text>
                                     </Box>
                                     <Box textAlign="start" marginTop="10px">
-                                        <Text fontSize="2.5rem" lineHeight="1.1">Integrated with the tools your team already knows and loves</Text>
+                                        <Text fontSize="3vw" lineHeight="1.1">Integrated with the tools your team already knows and loves</Text>
                                     </Box>
                                     <Box textAlign="start" marginTop="20px">
-                                        <Text fontSize="2.0rem" fontWeight="300" lineHeight="1.1">Your favorite apps work seamlessly with Harvest so you can keep projects on track however you work.</Text>
+                                        <Text fontSize="2vw" fontWeight="300" lineHeight="1.1">Your favorite apps work seamlessly with Harvest so you can keep projects on track however you work.</Text>
                                     </Box>
 
-                                    <Box flex="start" width="30%" marginTop="30px">
-                                        <Button position="-moz-initial" width="200px" height="50px" borderRadius="17px" textColor="white" colorScheme="black" backgroundColor='black' >Browser integrations</Button>
+                                    <Box flex="start" width="35%" marginTop="30px">
+                                        <Button position="-moz-initial" width="100%" fontSize="1.1vw" height="50px" borderRadius="17px" textColor="white" colorScheme="black" backgroundColor='black' >Browser integrations</Button>
                                     </Box>
                                 </Grid>
                             </Box>
@@ -252,13 +252,13 @@ function Home() {
                             <Box width="90%" borderRight="solid 1px #fa5d00" borderLeft="solid 1px #fa5d00" height="330px">
                                 <Grid margin="50px">
                                     <Box>
-                                        <Text textAlign="start" fontFamily="mono" fontWeight="500" fontSize="28px">We really focus on work-life balance in remote work… Time tracking reveals if somebody is overburdened and that becomes an immediate conversation.</Text>
+                                        <Text textAlign="start" fontFamily="mono" fontWeight="500" fontSize="1.8vw">We really focus on work-life balance in remote work… Time tracking reveals if somebody is overburdened and that becomes an immediate conversation.</Text>
                                     </Box>
                                     <Box marginTop="20px">
-                                        <Text textAlign="start" fontWeight="600" fontSize="1.5rem">Noah Gedrich, Zehner</Text>
+                                        <Text textAlign="start" fontWeight="600" fontSize="1.5vw">Noah Gedrich, Zehner</Text>
                                     </Box>
 
-                                    <Box marginTop="30px">
+                                    <Box marginTop="2%">
                                         <RadioGroup defaultValue='1'>
                                             <Stack>
                                                 <Flex gap={5}>
@@ -282,8 +282,8 @@ function Home() {
                         </Flex>
 
                         <Stack >
-                            <Box flex="start" width="35%" marginTop="50px">
-                                <Button position="-moz-initial" width="200px" height="50px" borderRadius="17px" textColor="white" colorScheme="black" backgroundColor='black' >Meet our customers</Button>
+                            <Box flex="start" width="35%" marginTop="4%">
+                                <Button position="-moz-initial" fontSize="1vw" width="35%" height="50px" borderRadius="17px" textColor="white" colorScheme="black" backgroundColor='black' >Meet our customers</Button>
                             </Box>
                         </Stack>
 
@@ -319,8 +319,8 @@ function Home() {
                                         </Box>
                                         <Box marginLeft="20px">
                                             <Grid textAlign="start">
-                                                <Text fontSize="2.3rem">Guides and templates</Text>
-                                                <Text fontSize="22px" fontWeight="400">Learn how to introduce your team to time tracking and make the most of Harvest.</Text>
+                                                <Text fontSize="2.5vw">Guides and templates</Text>
+                                                <Text fontSize="1.6vw" fontWeight="400">Learn how to introduce your team to time tracking and make the most of Harvest.</Text>
                                             </Grid>
                                         </Box>
                                         <Box fontSize="40px" color="#fa5d00">
@@ -338,8 +338,8 @@ function Home() {
                                         </Box>
                                         <Box marginLeft="20px">
                                             <Grid textAlign="start">
-                                                <Text fontSize="2.3rem">Webinars</Text>
-                                                <Text fontSize="22px" fontWeight="400">Watch a quick intro to Harvest or sign up for a live session with one of our Experts.</Text>
+                                                <Text fontSize="2.5vw">Webinars</Text>
+                                                <Text fontSize="1.6vw" fontWeight="400">Watch a quick intro to Harvest or sign up for a live session with one of our Experts.</Text>
                                             </Grid>
                                         </Box>
                                         <Box fontSize="40px" color="#fa5d00">
@@ -357,8 +357,8 @@ function Home() {
                                         </Box>
                                         <Box marginLeft="20px">
                                             <Grid textAlign="start">
-                                                <Text fontSize="2.3rem">Help Center</Text>
-                                                <Text fontSize="22px" fontWeight="400">Find the answers to all your questions or get in touch with one of our friendly Experts.</Text>
+                                                <Text fontSize="2.5vw">Help Center</Text>
+                                                <Text fontSize="1.6vw" fontWeight="400">Find the answers to all your questions or get in touch with one of our friendly Experts.</Text>
                                             </Grid>
                                         </Box>
                                         <Box fontSize="40px" color="#fa5d00">

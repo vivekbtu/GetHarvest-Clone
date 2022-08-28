@@ -18,16 +18,16 @@ function Footer() {
                     <Flex width="80%" margin="auto" marginTop="50px">
                         <Box width="50%" margin="auto">
                             <Grid textAlign="start">
-                                <Text fontSize="2.7rem">Start tracking time today</Text>
-                                <Text fontSize="1.5rem" marginTop="20px">Join 70,000+ companies spending their time wisely with Harvest.</Text>
+                                <Text fontSize="3vw">Start tracking time today</Text>
+                                <Text fontSize="1.5vw" marginTop="20px">Join 70,000+ companies spending their time wisely with Harvest.</Text>
                             
                                 <Box >
                                     <Flex width="100%" >
-                                        <Box marginTop="50px">
-                                        <Button position="-moz-initial" width="150px" height="50px" borderRadius="17px" textColor="white" colorScheme="#fa5d00" backgroundColor='#fa5d00' >Try Harvest free</Button>
+                                        <Box marginTop="5%">
+                                        <Button position="-moz-initial" fontSize="1.1vw" width="100%" height="50px" borderRadius="17px" textColor="white" colorScheme="#fa5d00" backgroundColor='#fa5d00' >Try Harvest free</Button>
                                         </Box>
-                                        <Box width="100%" marginTop="60px" marginLeft="10px">
-                                        <Text fontSize="1.1rem" color="grey" fontWeight="400">Free 30-day trial. No credit card required.</Text>
+                                        <Box width="100%" marginTop="6%" marginLeft="10px">
+                                        <Text fontSize="1.1vw" color="grey" fontWeight="400">Free 30-day trial. No credit card required.</Text>
                                         </Box>
                                         
                                     </Flex>
