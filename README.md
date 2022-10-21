@@ -1,3 +1,5 @@
+# Deploy link (https://the-great-bittubieber19-gmail-com-site-374c1.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +70,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+---
+# Main Page
+![Home Pages](https://drive.google.com/uc?export=view&id=w3wo7uoZXBSYoi9XTOAXXk4d)
+
+https://drive.google.com/file/d/1H9F6IWJ-w3wo7uoZXBSYoi9XTOAXXk4d/view?usp=sharing
