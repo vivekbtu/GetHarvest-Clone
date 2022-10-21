@@ -75,7 +75,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 ---
-# Main Page
-![Home Pages](https://drive.google.com/uc?export=view&id=w3wo7uoZXBSYoi9XTOAXXk4d)
+# Home Page
+![Home Pages](https://drive.google.com/uc?export=view&id=1H9F6IWJ-w3wo7uoZXBSYoi9XTOAXXk4d)
 
 https://drive.google.com/file/d/1H9F6IWJ-w3wo7uoZXBSYoi9XTOAXXk4d/view?usp=sharing
