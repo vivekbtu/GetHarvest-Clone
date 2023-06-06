@@ -1,5 +1,5 @@
 <!-- # Deploy link (https://the-great-bittubieber19-gmail-com-site-374c1.netlify.app/) -->
-Deploy Link glowing-jelly-1ca7fb.netlify.app/
+Deploy Link (https://glowing-jelly-1ca7fb.netlify.app/)
 
 
 
